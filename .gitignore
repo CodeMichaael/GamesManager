@@ -1,0 +1,5 @@
+db.sqlite3
+games/games
+games/manage.py
+migrations/
+__pycache__/

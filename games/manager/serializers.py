@@ -31,4 +31,3 @@ class GetStatSerializer(serializers.ModelSerializer):
         model = GetStat
         fields = "__all__"
 
-

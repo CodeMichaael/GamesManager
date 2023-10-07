@@ -110,11 +110,6 @@ def gamesapi(request):
                     game_id = serializer.validated_data["game_id"]
                     username = serializer.validated_data["user"]
 
-                    # You can add how you'd like players to join.
-
-
-
-
-
+                    # You can add how you'd like players to add players.
     else:
         return Response({'error': 'Missing "command" value.'}, status=status.HTTP_400_BAD_REQUEST)
